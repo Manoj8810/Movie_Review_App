@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body{
+  background-color: rgb(227, 215, 215);
+}
+h1{
+  margin: 0;
+  color: #fff;
+}
+.header{
+  background-color: #7652ec;
+  padding: 8px;
+}
+.main{
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding: 14px;
+}
+.movie{
+  background-color: rgb(194, 213, 213);
+  color: black;
+  font-weight: 500;
+  border: 2px solid rgb(101, 108, 108);
+  border-radius: 4px;
+  padding: 3px;
+  text-align: start;
+  cursor: pointer;
+  width: 23%;
+  margin-left: 17px;
+  margin-bottom: 15px;
+}
+.movie img{
+  width: 100%;
+  height: 220px;
+}
